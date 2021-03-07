@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Audience UI</title>
+    <link rel='shortcut icon' href='http://localhost:8000/favicon.ico' />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <div id='heading'>
+        <h1>Audience UI</h1>
+    </div>
+    <div id='credentials-holder' style='border: 1px solid black; border-radius: 15px;'>
+        <table>
+            <tr>
+                <td class="auth-cell">Username: <input type="text" id="username_api" value="test_user"></td>
+                <td class="auth-cell">Password: <input type="password" id="password_api"
+                        value="1160130875fda0812c99c5e3f1a03516471a6370c4f97129b221938eb4763e63"></td>
+            </tr>
+        </table>
+    </div>
+    <div id='selection-holder' style='border: 1px solid black; border-radius: 15px;'>
+        <span class='panel-title'>Selection panel:</span>
+        <div id='sel-channel'>
+            <table>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Data:</p>
+                    </td>
+                    <td class="channel-cell"><input type="date" id="date" onChange="nbviz.onDataChange()"></td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Emittente:</p>
+                    </td>
+                    <td class="channel-cell"><select id="channel" name="channel" onChange="nbviz.onDataChange()">
+                            <option value="1">Raiuno</option>
+                            <option value="2">Raidue</option>
+                            <option value="3">Raitre</option>
+                            <option value="4">Canale5</option>
+                            <option value="5">Italia1</option>
+                            <option value="6">Rete4</option>
+                            <option value="9999">Altre</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Ora inizio:</p>
+                    </td>
+                    <td class="channel-cell">
+                        <input type="time" id="time_start" onChange="nbviz.onDataChange()">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Ora fine:</p>
+                    </td>
+                    <td class="channel-cell">
+                        <input type="time" id="time_end" onChange="nbviz.onDataChange()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id='sel-gender'>
+            <p class="header">Genere:</p>
+            <form id='gender' onChange="nbviz.onDataChange()">
+                <input type="checkbox" id="male" name="gender" value="1" checked>
+                <label for="male">Uomo</label><br>
+                <input type="checkbox" id="female" name="gender" value="2" checked>
+                <label for="female">Donna</label><br>
+            </form>
+        </div>
+        <div id='sel-age'>
+            <form onChange="nbviz.onDataChange()">
+                <table id="age-table">
+                    <tr>
+                        <td colspan=2 align="center">
+                            <p class="header">Età:</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="age-cell" valign="top">
+                            <input type="checkbox" id="age_1" name="age" value="1" checked>
+                            <label for="1">4/5</label><br>
+                            <input type="checkbox" id="age_2" name="age" value="2" checked>
+                            <label for="2">6/7</label><br>
+                            <input type="checkbox" id="age_3" name="age" value="3" checked>
+                            <label for="3">8/10</label><br>
+                            <input type="checkbox" id="age_4" name="age" value="4" checked>
+                            <label for="4">11/14</label><br>
+                            <input type="checkbox" id="age_5" name="age" value="5" checked>
+                            <label for="5">15/19</label><br>
+                            <input type="checkbox" id="age_6" name="age" value="6" checked>
+                            <label for="6">20/24</label><br>
+                            <input type="checkbox" id="age_7" name="age" value="7" checked>
+                            <label for="7">25/34</label><br>
+                        </td>
+                        <td class="age-cell" valign="top">
+                            <input type="checkbox" id="age_8" name="age" value="8" checked>
+                            <label for="8">35/44</label><br>
+                            <input type="checkbox" id="age_9" name="age" value="9" checked>
+                            <label for="9">45/54</label><br>
+                            <input type="checkbox" id="age_10" name="age" value="10" checked>
+                            <label for="10">55/64</label><br>
+                            <input type="checkbox" id="age_11" name="age" value="11" checked>
+                            <label for="11">65/69</label><br>
+                            <input type="checkbox" id="age_12" name="age" value="12" checked>
+                            <label for="12">70/74</label><br>
+                            <input type="checkbox" id="age_13" name="age" value="13" checked>
+                            <label for="13">75+</label><br>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="bottom-holder">
+        <div id="request-holder" style='border: 1px solid black; border-radius: 15px;'>
+            <span span class='panel-title'>API request:</span>
+            <div id="request-panel-span" style='padding-top: 20px;'></div>
+        </div>
+        <div id="results-holder" style='border: 1px solid black; border-radius: 15px;'>
+            <span span class='panel-title'>Result panel:</span>
+            <div id="result-panel-span" style='padding-top: 20px;'></div>
+        </div>
+    </div>
+    <a href="#" onclick="showChart()">Show chart</a>
+    <input type="button" onclick="nbviz.showChart();">button text</input>
+    <button onclick="nbviz.showChart()">Show charts</button>
+    <div id="chart-holder">
+        <div id='chart1' style='border: 1px solid black; border-radius: 15px;'>
+        
+        </div>
+    </div>
+</body>
+
+</html>

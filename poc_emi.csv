@@ -1,0 +1,378 @@
+player_owner_code_id,player_owner_code,poc_desc,emittente_id,emittente,emi_desc
+1,15866303,RAI,1,0001,RAI 1                                             
+1,15866303,RAI,2,0002,RAI 2                                             
+1,15866303,RAI,3,0003,RAI 3                                             
+1,15866303,RAI,587,3021,Rai Premium
+1,15866303,RAI,588,3022,Rai Sport piu HD
+1,15866303,RAI,589,3023,tgr
+1,15866303,RAI,590,3024,Rai Radio 2
+1,15866303,RAI,591,3025,rai digital
+1,15866303,RAI,88,6055,RAI MOVIE                                         
+1,15866303,RAI,89,6058,RAI PREMIUM                                       
+1,15866303,RAI,125,6095,RAI NEWS                                          
+1,15866303,RAI,146,6130,RAI SPORT                                         
+1,15866303,RAI,149,6131,RAI SCUOLA                                        
+1,15866303,RAI,150,6132,RAI STORIA                                        
+1,15866303,RAI,151,6134,RAI GULP                                          
+1,15866303,RAI,154,6169,RAI YOYO                                          
+1,15866303,RAI,198,6367,RAI SPORT                                         
+1,15866303,RAI,252,6824,RAI 4                                             
+1,15866303,RAI,294,7936,RAI 5                                             
+1,15866303,RAI,0,NotI,Not Informed
+2,20043547,Discovery,80,6038,DISCOVERY CHANNEL/HD                              
+2,20043547,Discovery,123,6083,EUROSPORT/HD                                      
+2,20043547,Discovery,127,6096,EUROSPORT 2                                       
+2,20043547,Discovery,137,6115,DISCOVERY SCIENCE                                 
+2,20043547,Discovery,138,6117,DISCOVERY TRAVEL & LIVING                         
+2,20043547,Discovery,139,6119,REAL TIME                                         
+2,20043547,Discovery,140,6120,ANIMAL PLANET                                     
+2,20043547,Discovery,420,6278,Home and garden TV
+2,20043547,Discovery,176,6287,DISCOVERY CHANNEL +1                              
+2,20043547,Discovery,182,6305,K2                                                
+2,20043547,Discovery,200,6368,FRISBEE                                           
+2,20043547,Discovery,201,6388,REAL TIME +1                                      
+2,20043547,Discovery,210,6433,DMAX                                              
+2,20043547,Discovery,224,6513,DEEJAY TV                                         
+2,20043547,Discovery,239,6659,FOOD NETWORK                                      
+2,20043547,Discovery,285,7739,GIALLO                                            
+2,20043547,Discovery,291,7807,DEEJAY TV +1                                      
+2,20043547,Discovery,311,8285,ID - INVESTIGATION DISCOVERY                      
+2,20043547,Discovery,315,8465,FOCUS                                             
+2,20043547,Discovery,340,9650,HGTV - HOME & GARDEN                              
+2,20043547,Discovery,356,9742,DMAX +1                                           
+2,20043547,Discovery,0,NotI,Not Informed
+3,25391484,La7,7,0013,LA7                                               
+3,25391484,La7,246,6773,LA7D                                              
+3,25391484,La7,0,NotI,Not Informed
+4,6034891,Sky Italia,8,0023,7 GOLD TELECITY LIGURIA                           
+4,6034891,Sky Italia,9,0024,7 GOLD                                            
+4,6034891,Sky Italia,12,0027,MUSIC                                             
+4,6034891,Sky Italia,421,0029,Fox +1
+4,6034891,Sky Italia,422,0030,Sky Cinema Comedy HD
+4,6034891,Sky Italia,13,0031,VIDEOGRUPPO                                       
+4,6034891,Sky Italia,423,0033,FoxCrime Criminal
+4,6034891,Sky Italia,14,0034,ANTENNATRE                                        
+4,6034891,Sky Italia,424,0035,Sky Sport24 HD
+4,6034891,Sky Italia,425,0037,Sky Sport24 HD
+4,6034891,Sky Italia,15,0038,ESPANSIONE TV                                     
+4,6034891,Sky Italia,426,0040,Sky Sport24 HD
+4,6034891,Sky Italia,17,0047,TELELOMBARDIA                                     
+4,6034891,Sky Italia,428,0057,History Misteri
+4,6034891,Sky Italia,429,0058,NationalGeo +1
+4,6034891,Sky Italia,430,0074,Sky Arte HD
+4,6034891,Sky Italia,431,0075,Sky Arte HD
+4,6034891,Sky Italia,432,0101,Sky Cinema Uno
+4,6034891,Sky Italia,433,0103,Fox News
+4,6034891,Sky Italia,434,0105,Sky Cinema Family
+4,6034891,Sky Italia,435,0107,Sky Cinema Uno +24
+4,6034891,Sky Italia,436,0108,Sky News
+4,6034891,Sky Italia,30,0110,RTV 38                                            
+4,6034891,Sky Italia,437,0115,Sky Cinema Action
+4,6034891,Sky Italia,438,0116,GINX Esports TV
+4,6034891,Sky Italia,439,0117,Discovery HD
+4,6034891,Sky Italia,440,0120,cielo HD
+4,6034891,Sky Italia,441,0123,Sky Cinema Romance
+4,6034891,Sky Italia,442,0137,Sky Cinema Due
+4,6034891,Sky Italia,443,0150,Eurosport 2 HD
+4,6034891,Sky Italia,444,0151,Sky Cinema Suspense
+4,6034891,Sky Italia,445,0170,Classica HD
+4,6034891,Sky Italia,36,0180,TELEDUE                                           
+4,6034891,Sky Italia,446,0202,Sky Cinema Uno HD
+4,6034891,Sky Italia,447,0204,Sky Cinema HD
+4,6034891,Sky Italia,448,0206,Sky Cinema Action HD
+4,6034891,Sky Italia,449,0209,Sky Sport Serie A HD
+4,6034891,Sky Italia,37,0211,TGS TELEGIORNALE SICILIA                          
+4,6034891,Sky Italia,450,0215,Sky Sport
+4,6034891,Sky Italia,451,0224,Sky Cinema Uno +24 HD
+4,6034891,Sky Italia,452,0226,Sky Atlantic HD
+4,6034891,Sky Italia,453,0227,NOVE HD
+4,6034891,Sky Italia,454,0228,Gambero Rosso HD
+4,6034891,Sky Italia,455,0229,Gambero Rosso HD
+4,6034891,Sky Italia,456,0230,Sky Sport Serie A HD
+4,6034891,Sky Italia,457,0231,Sky Cinema Romance HD
+4,6034891,Sky Italia,458,0233,Sky Sport HD
+4,6034891,Sky Italia,459,0234,Sky Sport HD
+4,6034891,Sky Italia,460,0236,NationalGeo HD
+4,6034891,Sky Italia,461,0237,Fox HD
+4,6034891,Sky Italia,462,0238,Fox Crime HD
+4,6034891,Sky Italia,463,0245,CNBC HD
+4,6034891,Sky Italia,464,0248,Sky Sport Football HD
+4,6034891,Sky Italia,465,0249,Crime + Inv. HD
+4,6034891,Sky Italia,466,0255,Sky Cinema Family HD
+4,6034891,Sky Italia,467,0258,Cartoon Network HD
+4,6034891,Sky Italia,468,0260,TV8 HD
+4,6034891,Sky Italia,469,0261,Milan TV
+4,6034891,Sky Italia,470,0264,Roma TV
+4,6034891,Sky Italia,471,0266,Sky Uno +1 HD
+4,6034891,Sky Italia,472,0308,Cartoon Network
+4,6034891,Sky Italia,473,0310,Baby TV
+4,6034891,Sky Italia,474,0313,DeAJunior
+4,6034891,Sky Italia,475,0320,Nickelodeon
+4,6034891,Sky Italia,476,0321,Sky Meteo24
+4,6034891,Sky Italia,477,0322,Discovery +1
+4,6034891,Sky Italia,478,0328,TG24PrimoPiano
+4,6034891,Sky Italia,479,0331,Torino Channel
+4,6034891,Sky Italia,480,0343,Boomerang +1
+4,6034891,Sky Italia,481,0344,CACCIA e Pesca
+4,6034891,Sky Italia,482,0348,NatGeo Wild +1
+4,6034891,Sky Italia,483,0355,Cartoon +1
+4,6034891,Sky Italia,484,0362,Sky Tg24
+4,6034891,Sky Italia,485,0367,Boomerang
+4,6034891,Sky Italia,486,0394,MAN-GA
+4,6034891,Sky Italia,487,0404,Comedy Central
+4,6034891,Sky Italia,488,0407,La7
+4,6034891,Sky Italia,489,0412,Sky Atlantic
+4,6034891,Sky Italia,490,0418,-frisbee-
+4,6034891,Sky Italia,491,0421,Super!
+4,6034891,Sky Italia,42,0424,TELECAMPIONE                                      
+4,6034891,Sky Italia,492,0428,MTV Music
+4,6034891,Sky Italia,493,0429,MTV Music
+4,6034891,Sky Italia,494,0433,Class CNBC
+4,6034891,Sky Italia,495,0445,MS MOTORTV
+4,6034891,Sky Italia,496,0460,DeAKids
+4,6034891,Sky Italia,497,0466,K2
+4,6034891,Sky Italia,498,0469,Real Time +1
+4,6034891,Sky Italia,499,0477,Sky Uno HD
+4,6034891,Sky Italia,500,0478,Sky Sport F1 HD
+4,6034891,Sky Italia,501,0479,Sky Uno HD
+4,6034891,Sky Italia,502,0483,Sky Sport MotoGP HD
+4,6034891,Sky Italia,503,0507,Real Time HD
+4,6034891,Sky Italia,504,0512,Fox Life HD
+4,6034891,Sky Italia,505,0513,History HD
+4,6034891,Sky Italia,506,0515,NatGeo Wild HD
+4,6034891,Sky Italia,507,0519,Sky TG24 HD
+4,6034891,Sky Italia,508,0520,Sky Atlantic +1 HD
+4,6034891,Sky Italia,509,0521,Sky TG24 HD
+4,6034891,Sky Italia,510,0532,Nickelodeon +1
+4,6034891,Sky Italia,511,0533,Comedy +1
+4,6034891,Sky Italia,512,0543,Blaze HD
+4,6034891,Sky Italia,513,0544,Fox Business
+4,6034891,Sky Italia,514,0564,Sky Cinema Due HD
+4,6034891,Sky Italia,515,0610,Sky Sport F1
+4,6034891,Sky Italia,516,0611,Sky Sport NBA
+4,6034891,Sky Italia,517,0613,Sky Sport
+4,6034891,Sky Italia,518,0615,Sky Sport
+4,6034891,Sky Italia,519,0681,Premium Cinema HD
+4,6034891,Sky Italia,520,0682,Premium Cinema1 +24 HD
+4,6034891,Sky Italia,521,0683,Premium Cinema2 HD
+4,6034891,Sky Italia,522,0684,Premium Comedy HD
+4,6034891,Sky Italia,523,0685,Premium Cinema3 HD
+4,6034891,Sky Italia,524,0687,Premium Stories HD
+4,6034891,Sky Italia,525,0688,Premium Action HD
+4,6034891,Sky Italia,526,0689,Premium Crime HD
+4,6034891,Sky Italia,527,0705,Eurosport
+4,6034891,Sky Italia,528,0712,Sky Sport Football
+4,6034891,Sky Italia,529,0718,Sky Uno
+4,6034891,Sky Italia,530,0722,Food Network HD
+4,6034891,Sky Italia,531,0724,Sky Cinema Hits
+4,6034891,Sky Italia,532,0725,Sky Cinema Comedy
+4,6034891,Sky Italia,533,0727,Sky Cinema Drama
+4,6034891,Sky Italia,534,0730,Sky Sport Collection
+4,6034891,Sky Italia,535,0732,Sky Cinema Due +24
+4,6034891,Sky Italia,536,0755,Wine TV
+4,6034891,Sky Italia,537,0763,MTV HD
+4,6034891,Sky Italia,538,0764,Sky Sport NBA HD
+4,6034891,Sky Italia,539,0768,Sky Sport Collection HD
+4,6034891,Sky Italia,540,0769,Sky Cinema Drama HD
+4,6034891,Sky Italia,541,0772,Sky Sport HD
+4,6034891,Sky Italia,542,0775,Sky Sport HD
+4,6034891,Sky Italia,543,0777,DAZN1
+4,6034891,Sky Italia,544,0778,Canale di servizio
+4,6034891,Sky Italia,545,0779,Sky Cinema Due +24 HD
+4,6034891,Sky Italia,547,0801,Euronews
+4,6034891,Sky Italia,548,0807,RAI Sport
+4,6034891,Sky Italia,549,0810,Fashion TV
+4,6034891,Sky Italia,550,0811,ClassTvModa
+4,6034891,Sky Italia,551,0818,Telepace HD
+4,6034891,Sky Italia,552,0825,Senato Italiano
+4,6034891,Sky Italia,553,0826,Camera dei Deputati
+4,6034891,Sky Italia,554,0846,People TV-Rete7
+4,6034891,Sky Italia,555,0871,Napoli Mia
+4,6034891,Sky Italia,556,0891,BBC World News
+4,6034891,Sky Italia,557,0895,RAI News
+4,6034891,Sky Italia,558,0897,Rai 3
+4,6034891,Sky Italia,559,0898,Rai 2
+4,6034891,Sky Italia,560,0899,Rai 1
+4,6034891,Sky Italia,561,0903,Sky Uno +1
+4,6034891,Sky Italia,562,0910,Sky Sport HD
+4,6034891,Sky Italia,563,0912,Sky Sport HD
+4,6034891,Sky Italia,564,0917,Sky Sport HD
+4,6034891,Sky Italia,565,0920,Sky Sport Uno
+4,6034891,Sky Italia,566,0921,Sky Sport Arena
+4,6034891,Sky Italia,567,0922,Sky Sport Serie A
+4,6034891,Sky Italia,568,0929,Sky Sport24
+4,6034891,Sky Italia,569,0951,Sky Sport HD
+4,6034891,Sky Italia,570,0974,NOVE
+4,6034891,Sky Italia,571,0976,Kiss Kiss Tv HD
+4,6034891,Sky Italia,572,1324,Paramount Network HD
+4,6034891,Sky Italia,573,1731,CIAO
+4,6034891,Sky Italia,592,3073,Eurosport HD
+4,6034891,Sky Italia,593,3655,GIALLO HD
+4,6034891,Sky Italia,594,3659,Motor Trend HD
+4,6034891,Sky Italia,595,3664,DMAX+1
+4,6034891,Sky Italia,596,4081,Radio Radio TV
+4,6034891,Sky Italia,597,5114,Al Jazeera HD
+4,6034891,Sky Italia,598,5119,France 24 Francais HD
+4,6034891,Sky Italia,599,5182,Venus Tv
+4,6034891,Sky Italia,600,5190,TVP Polonia
+4,6034891,Sky Italia,601,5192,TVR Intl.
+4,6034891,Sky Italia,602,5202,CCTV-4
+4,6034891,Sky Italia,603,5203,Deutsche Welle HD
+4,6034891,Sky Italia,604,5256,Bloomberg
+4,6034891,Sky Italia,605,5290,Horse TV HD
+4,6034891,Sky Italia,606,5296,France 24 English HD
+4,6034891,Sky Italia,607,5306,LaF
+4,6034891,Sky Italia,608,5312,TG NORBA 24
+4,6034891,Sky Italia,609,5318,Spike
+4,6034891,Sky Italia,610,5322,teleSUR
+4,6034891,Sky Italia,611,5411,TgCom24
+4,6034891,Sky Italia,612,5412,Emilia Romagna 24
+4,6034891,Sky Italia,613,5414,DMAX HD
+4,6034891,Sky Italia,614,5418,Italian Fishing Tv
+4,6034891,Sky Italia,615,5423,tv8
+4,6034891,Sky Italia,616,5425,Antichita Chiossone
+4,6034891,Sky Italia,617,5430,RADIONORBA TV
+4,6034891,Sky Italia,618,5432,Euronews English HD
+4,6034891,Sky Italia,619,5434,TRT World HD
+4,6034891,Sky Italia,620,5435,Canale 5 HD
+4,6034891,Sky Italia,621,5436,Iris
+4,6034891,Sky Italia,622,5437,La 5
+4,6034891,Sky Italia,623,5443,Mediaset Extra
+4,6034891,Sky Italia,624,5444,Mediaset Italia Due
+4,6034891,Sky Italia,625,5445,TOPcrime
+4,6034891,Sky Italia,626,5447,Focus
+4,6034891,Sky Italia,627,5454,Radio Italia TV HD
+4,6034891,Sky Italia,628,5458,Canale 20 HD
+4,6034891,Sky Italia,629,5459,Italia 1 HD
+4,6034891,Sky Italia,630,5464,Rete 4 HD
+4,6034891,Sky Italia,631,5466,QVC HD
+4,6034891,Sky Italia,632,5470,HSE24 HD
+4,6034891,Sky Italia,633,5480,RDS Social TV
+4,6034891,Sky Italia,634,5481,Cine34
+4,6034891,Sky Italia,635,5488,Record TV Europa
+4,6034891,Sky Italia,636,5489,Videolina
+4,6034891,Sky Italia,56,6011,MTV                                               
+4,6034891,Sky Italia,63,6017,SKY CINEMA +1                                     
+4,6034891,Sky Italia,64,6018,CINEMA FAMILY                                     
+4,6034891,Sky Italia,65,6019,SKY CINEMA PASSION                                
+4,6034891,Sky Italia,66,6020,SKY CINEMA MAX/HD                                 
+4,6034891,Sky Italia,67,6021,SKY CINEMA HITS/HD                                
+4,6034891,Sky Italia,68,6022,SKY SPORT 2                                       
+4,6034891,Sky Italia,69,6023,SKY TG24                                          
+4,6034891,Sky Italia,84,6052,SKY SPORT 3                                       
+4,6034891,Sky Italia,85,6053,SKY SPORT SERIE A                                 
+4,6034891,Sky Italia,87,6054,SKY METEO 24                                      
+4,6034891,Sky Italia,90,6060,SKY CINEMA CLASSIC                                
+4,6034891,Sky Italia,91,6061,SKY UNO                                           
+4,6034891,Sky Italia,92,6062,SKY CALCIO 1                                      
+4,6034891,Sky Italia,94,6063,SKY CALCIO 2                                      
+4,6034891,Sky Italia,96,6064,SKY CALCIO 3                                      
+4,6034891,Sky Italia,98,6065,SKY CALCIO 4                                      
+4,6034891,Sky Italia,100,6066,SKY CALCIO 5                                      
+4,6034891,Sky Italia,102,6067,SKY CALCIO 6                                      
+4,6034891,Sky Italia,104,6068,SKY CALCIO 7                                      
+4,6034891,Sky Italia,106,6069,SKY CALCIO 8                                      
+4,6034891,Sky Italia,108,6070,SKY CALCIO 9                                      
+4,6034891,Sky Italia,110,6071,SKY CALCIO 10                                     
+4,6034891,Sky Italia,112,6072,SKY CALCIO 11                                     
+4,6034891,Sky Italia,114,6073,SKY CALCIO 12                                     
+4,6034891,Sky Italia,116,6074,SKY CALCIO 13                                     
+4,6034891,Sky Italia,128,6097,SKY MOSAICO INTERATTIVO                           
+4,6034891,Sky Italia,132,6107,SKY TG24 PRIMO PIANO                              
+4,6034891,Sky Italia,133,6108,SKY SPORT ACTIVE                                  
+4,6034891,Sky Italia,134,6109,SKY TG24 RASSEGNE                                 
+4,6034891,Sky Italia,135,6112,SKY TG24 ACTIVE                                   
+4,6034891,Sky Italia,153,6142,SKY TG24 EVENTI                                   
+4,6034891,Sky Italia,158,6173,SKY UNO +1                                        
+4,6034891,Sky Italia,164,6227,SKY MOSAICO INTERATTIVO 2                         
+4,6034891,Sky Italia,169,6273,SKY SPORT 24                                      
+4,6034891,Sky Italia,177,6289,SKY CINEMA MAX +1                                 
+4,6034891,Sky Italia,178,6290,SKY CINEMA +24                                    
+4,6034891,Sky Italia,183,6310,SKY CINEMA COMEDY                                 
+4,6034891,Sky Italia,192,6335,CIELO                                             
+4,6034891,Sky Italia,196,6363,SKY ON DEMAND 1 HD                                
+4,6034891,Sky Italia,197,6364,SKY ON DEMAND 1 SD                                
+4,6034891,Sky Italia,215,6488,SKY SPORT F1                                      
+4,6034891,Sky Italia,216,6489,SKY SPORT RACE CONTROL (F1 E MOTOGP)              
+4,6034891,Sky Italia,217,6490,SKY MOSAICO MOTORI                                
+4,6034891,Sky Italia,218,6491,ON BOARD SKY(F1)/FLY VIEW(MOTO GP)                
+4,6034891,Sky Italia,219,6492,ON BOARD LEADER(F1)                               
+4,6034891,Sky Italia,220,6493,ON BOARD MIX(F1 E MOTO GP)                        
+4,6034891,Sky Italia,222,6495,LIVE TIMING(F1 E MOTO GP)                         
+4,6034891,Sky Italia,223,6496,RACE CONTROL(F1 E MOTO GP)                        
+4,6034891,Sky Italia,305,8254,SKY TG24 (50)                                     
+4,6034891,Sky Italia,326,9042,SKY SPORT UNO DTT                                 
+4,6034891,Sky Italia,353,9735,SKY ATLANTIC                                      
+4,6034891,Sky Italia,354,9736,SKY SPORT MOTO GP                                 
+4,6034891,Sky Italia,355,9737,SKY ATLANTIC +1                                   
+4,6034891,Sky Italia,369,9775,SKY MOSAICO CINEMA                                
+4,6034891,Sky Italia,374,9787,SS24 MOSAICO                                      
+4,6034891,Sky Italia,375,9788,SS24 HIGHLIGHTS                                   
+4,6034891,Sky Italia,376,9789,SS24 IL FATTO DEL GIORNO                          
+4,6034891,Sky Italia,377,9790,SKY SPORT MIX                                     
+4,6034891,Sky Italia,391,9816,SKY SPORT UNO                                     
+4,6034891,Sky Italia,392,9817,SKY SPORT FOOTBALL                                
+4,6034891,Sky Italia,393,9818,SKY SPORT ARENA                                   
+4,6034891,Sky Italia,394,9819,SKY SPORT GOLF                                    
+4,6034891,Sky Italia,395,9820,SKY SPORT NBA                                     
+4,6034891,Sky Italia,397,9833,SKY CINEMA DUE                                    
+4,6034891,Sky Italia,398,9834,SKY CINEMA COLLECTION                             
+4,6034891,Sky Italia,399,9835,SKY CINEMA ACTION                                 
+4,6034891,Sky Italia,401,9837,SKY CINEMA ROMANCE                                
+4,6034891,Sky Italia,402,9838,SKY CINEMA DRAMA                                  
+4,6034891,Sky Italia,403,9839,SKY CINEMA DUE +24                                
+4,6034891,Sky Italia,405,9886,SKY SPORT COLLECTION                              
+4,6034891,Sky Italia,0,NotI,Not Informed
+5,8971536,Mediaset,4,0004,CANALE 5                                          
+5,8971536,Mediaset,5,0005,ITALIA 1                                          
+5,8971536,Mediaset,6,0006,RETE 4                                            
+5,8971536,Mediaset,546,0785,Radio 105
+5,8971536,Mediaset,574,3000,Mediaset Digital
+5,8971536,Mediaset,575,3001,Canale 5
+5,8971536,Mediaset,576,3002,Rete 4
+5,8971536,Mediaset,577,3003,Italia 1
+5,8971536,Mediaset,578,3004,20
+5,8971536,Mediaset,579,3005,Iris
+5,8971536,Mediaset,580,3006,Top Crime
+5,8971536,Mediaset,581,3007,La5
+5,8971536,Mediaset,582,3009,TGCom 24
+5,8971536,Mediaset,583,3010,Focus
+5,8971536,Mediaset,584,3011,Italia 2 Mediaset
+5,8971536,Mediaset,585,3012,Cartoonito
+5,8971536,Mediaset,586,3014,Mediaset Digital
+5,8971536,Mediaset,227,6522,PREMIUM CALCIO 1                                  
+5,8971536,Mediaset,228,6523,PREMIUM CALCIO 2                                  
+5,8971536,Mediaset,229,6524,PREMIUM CALCIO 3                                  
+5,8971536,Mediaset,230,6525,PREMIUM CALCIO 4                                  
+5,8971536,Mediaset,231,6526,BOING                                             
+5,8971536,Mediaset,233,6550,PREMIUM CALCIO 5                                  
+5,8971536,Mediaset,235,6582,PREMIUM CALCIO 6                                  
+5,8971536,Mediaset,241,6680,PREMIUM CALCIO 7                                  
+5,8971536,Mediaset,244,6734,IRIS                                              
+5,8971536,Mediaset,247,6782,PREMIUM JOI                                       
+5,8971536,Mediaset,248,6783,PREMIUM STORIES                                   
+5,8971536,Mediaset,249,6784,PREMIUM ACTION                                    
+5,8971536,Mediaset,253,6830,PREMIUM CALCIO/HD                                 
+5,8971536,Mediaset,267,7147,PREMIUM CINEMA                                    
+5,8971536,Mediaset,271,7213,PREMIUM SPORT/HD                                  
+5,8971536,Mediaset,273,7351,PREMIUM CINEMA 3                                  
+5,8971536,Mediaset,275,7355,PREMIUM CINEMA 2                                  
+5,8971536,Mediaset,277,7373,LA5                                               
+5,8971536,Mediaset,286,7742,CARTOONITO                                        
+5,8971536,Mediaset,295,7972,MEDIASET EXTRA                                    
+5,8971536,Mediaset,296,7978,ITALIA 2 MEDIASET                                 
+5,8971536,Mediaset,637,7998,Virgin Radio
+5,8971536,Mediaset,297,7999,TGCOM 24                                          
+5,8971536,Mediaset,301,8122,PREMIUM CRIME                                     
+5,8971536,Mediaset,304,8247,PREMIUM CINEMA COMEDY                             
+5,8971536,Mediaset,315,8465,FOCUS                                             
+5,8971536,Mediaset,323,9028,20                                                
+5,8971536,Mediaset,324,9029,FOCUS                                             
+5,8971536,Mediaset,333,9458,TOP CRIME                                         
+5,8971536,Mediaset,638,9467,r101tv
+5,8971536,Mediaset,337,9489,BOING PLUS                                        
+5,8971536,Mediaset,341,9653,CINE 34                                           
+5,8971536,Mediaset,639,9772,Radio Monte Carlo
+5,8971536,Mediaset,389,9810,PREMIUM CINEMA 1 +24                              
+5,8971536,Mediaset,409,9972,MEDIASET EXTRA 2                                  
+5,8971536,Mediaset,0,NotI,Not Informed

@@ -1,0 +1,119 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #bababa;
+    width: 1000px;
+    margin: 0 auto; /* top and bottom 0, left and right auto */
+}
+
+a:link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#heading {
+    color: blue;
+}
+
+#credentials-holder {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+#selection-holder {
+    width: 100%;
+    height: 300px;
+    top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+#bottom-holder {
+    width: 100%;
+    height: 200px;
+    top: 20px;
+    position: relative;
+}
+
+#request-holder {
+    width: 460px;
+    top: 20px;
+    height:200px;
+    padding: 20px;
+    position: absolute;
+}
+
+#results-holder {
+    width: 480px;
+    top: 20px;
+    height:200px;
+    left: 520px;
+    padding: 20px;
+    position: absolute;
+}
+
+#chart-holder {
+    width: 100%;
+    height: 200px;
+    top: 20px;
+    position: relative;
+}
+
+#sel-channel {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+}
+
+#sel-gender {
+    position: absolute;
+    left: 400px;
+    width: 300px;
+    height: 100px;
+}
+
+#sel-age {
+    position: absolute;
+    left: 800px;
+    width: 400px;
+    height: 100px;
+}
+
+td.auth-cell {
+    padding-right :10px;
+    padding-left :10px;
+    font-weight: bold;
+}
+
+td.channel-cell {
+    padding-right :10px;
+    padding-left :10px;
+}
+
+td.age-cell {
+    padding-right :10px;
+    padding-left :10px;
+}
+
+td.region-cell {
+    padding-right :10px;
+    padding-left :10px;
+}
+
+p.header {
+    font-weight: bold;
+}
+
+td.header {
+    font-weight: bold;
+}
+
+.panel-title {
+    font-weight: bold;
+    color: blue;
+}

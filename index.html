@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Audience UI</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="scripts.js?v=2"></script>
+
+    <div id='heading'>
+        <h1>Audience UI</h1>
+    </div>
+    <div id='credentials-holder' style='border: 1px solid black; border-radius: 15px;'>
+        <table>
+            <tr>
+                <td class="auth-cell">Username: <input type="text" id="username_api" value="SampleUser@datafit.it"></td>
+                <td class="auth-cell">Password: <input type="password" id="password_api"
+                        value="user1234"></td>
+                <td span><button id="login_btn" onClick="nbviz.loginButton()">Login</button></td>
+                <td><button id="logout_btn" onClick="nbviz.logoutButton()">Logout</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <div id='selection-holder' style='border: 1px solid black; border-radius: 15px;'>
+        <span class='panel-title'>Selection panel:</span>
+        <div id='sel-channel'>
+            <table>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Data:</p>
+                    </td>
+                    <td class="channel-cell"><input type="date" id="date" onChange="nbviz.onDataChange()"></td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Ora inizio:</p>
+                    </td>
+                    <td class="channel-cell">
+                        <input type="time" id="time_start" onChange="nbviz.onDataChange()">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Ora fine:</p>
+                    </td>
+                    <td class="channel-cell">
+                        <input type="time" id="time_end" onChange="nbviz.onDataChange()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id='sel-gender'>
+            <table>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Publisher:</p>
+                    </td>
+                    <td class="channel-cell"><select id="publisher" name="publisher" onChange="nbviz.onDataChange('publisher')">
+                            <!--
+                            <option value="RAI">RAI</option>
+                            <option value="Discovery">Discovery</option>
+                            <option value="La7">La7</option>
+                            <option value="Sky Italia">Sky Italia</option>
+                            <option value="Mediaset">Mediaset</option>
+                            -->
+                        </select></td>
+                </tr>
+                <tr>
+                    <td class="channel-cell">
+                        <p class="header">Canale:</p>
+                    </td>
+                    <td class="channel-cell"><select id="channel" name="channel" onChange="nbviz.onDataChange()">
+                            <option value="1"></option>
+                            <option value="2">Ch X</option>
+                            <option value="3">Ch Y</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td class="region-cell">
+                        <p class="header">Regione:</p>
+                    </td>
+                    <td class="region-cell"><select id="region" name="region" onChange="nbviz.onDataChange()">
+                            <option value="0"></option>
+                            <option value="1">Piemonte</option>
+                            <option value="2">Liguria</option>
+                            <option value="3">Lombardia</option>
+                            <option value="4">Trentino Alto Adige</option>
+                            <option value="5">Veneto</option>
+                            <option value="6">Friuli Venezia Giulia</option>
+                            <option value="7">Emilia Romagna</option>
+                            <option value="8">Marche</option>
+                            <option value="9">Toscana</option>
+                            <option value="10">Umbria</option>
+                            <option value="11">Lazio</option>
+                            <option value="12">Campania</option>
+                            <option value="13">Abruzzo</option>
+                            <option value="14">Puglia</option>
+                            <option value="15">Basilicata</option>
+                            <option value="16">Calabria</option>
+                            <option value="17">Sicilia</option>
+                            <option value="18">Sardegna</option>
+                            <option value="19">Valle d'Aosta</option>
+                            <option value="20">Molise</option>
+                    </select></td>
+                </tr>
+            </table>
+        </div>
+        <div id='sel-age'>
+            <p class="header">Device:</p>
+            <form id='device_class' onChange="nbviz.onDataChange()">
+                <input type="radio" id="all" name="device_cl" value="" checked="checked">
+                <label for="all">Tutti</label><br>
+                <input type="radio" id="undefined" name="device_cl" value="0" >
+                <label for="undefined">Non definito</label><br>
+                <input type="radio" id="others" name="device_cl" value="1">
+                <label for="others">Altri device</label><br>
+                <input type="radio" id="tv_screen" name="device_cl" value="2">
+                <label for="tv_screen">TV Screen</label><br>
+                <input type="radio" id="tablet" name="device_cl" value="3">
+                <label for="tablet">Tablet</label><br>
+                <input type="radio" id="smartphone" name="device_cl" value="4">
+                <label for="smartphone">Smartphone</label><br>
+                <input type="radio" id="pc" name="device_cl" value="5">
+                <label for="pc">PC</label><br>
+            </form>
+        </div>
+    </div>
+    <div id="bottom-holder">
+        <div id="request-holder" style='border: 1px solid black; border-radius: 15px;'>
+            <span span class='panel-title'>API request:</span>
+            <div id="request-panel-span" style='padding-top: 20px;'></div>
+        </div>
+        <div id="results-holder" style='border: 1px solid black; border-radius: 15px;'>
+            <span span class='panel-title'>Result panel:</span>
+            <div id="result-panel-span" style='padding-top: 20px;'></div>
+        </div>
+    </div>
+</body>
+
+</html>
